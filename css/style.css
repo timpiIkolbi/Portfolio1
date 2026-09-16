@@ -186,3 +186,9 @@ footer{
         font-size:1.2rem;
     }
 }
+/* 500px nézet */
+@media(max-width:500px){
+    .keszsegek{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
